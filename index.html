@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <!--<link href="../../../style.css" rel="stylesheet">-->
   </head>
   <body>
-      <h1>Седона</h1>
+      <h1 class="visually-hidden">Седона</h1>
       <header class="main-header">  
-        <a><img src="http://placehold.it/150x100" alt="logo"></a>
-        <!--<a><img src="img/logo.png" alt="logo"></a>-->
+        <a><img src="http://placehold.it/138x70" alt="logo" width="138" height="70"></a>
+        <!--<a><img src="img/logo.png" alt="logo" width="138" height="70"></a>-->
           <nav class="main-navigation">
         <ul class="site-navigation">
             <li><a href="info.html">Информация</a></li>
@@ -20,9 +21,10 @@
       </header>
   <div>
     <!-- Поменять на другой тег подходящий по смыслу -->
-    <img src="http://placehold.it/300x300" alt="Intro picture">
-    <!--<img src="img/intro.jpg" alt="Intro picture">-->
+    <img src="http://placehold.it/1200x773" alt="Intro picture" width="1200" height="773">
+    <!--<img src="img/intro.jpg" alt="Intro picture" width="1200" height="773">-->
   </div>
+    
 <main>
     <h2 class="features">Преимущества</h2>
       <p class="features-description">Седона - Небольшой городок в Аризоне, заслуживающий большего!</p>
@@ -31,17 +33,17 @@
           <li>
             <h3>Настоящий городок</h3>
               <p>-№1- Седона - не аттракцион для туристов, там течет своя жизнь.</p>
-              <img src="http://placehold.it/450x100" alt="photo1">
-              <!--<img src="img/feature1.jpg" alt="photo1">-->
+              <img src="http://placehold.it/800x400" alt="photo1" width="800" height="400">
+              <!--<img src="img/feature1.jpg" alt="photo1" width="800" height="400">-->
               <ul>
-                <li>Жилье. Рекомендуем пожить в настоящем мотеле. Всё как в кино!</li>
-                <li>Еда. Всегда заказывайте фирменный бургер и вы не разочаруетесь!</li>
-                <li>Сувениры. Не только китайского, но и местного произвоства!</li>
+                <li><img src="http://placehold.it/75x72" alt="Жилье" width="75" height="72">Жилье. Рекомендуем пожить в настоящем мотеле. Всё как в кино!</li>
+                <li><img src="http://placehold.it/74x70" alt="Еда" width="74" height="70">Еда. Всегда заказывайте фирменный бургер и вы не разочаруетесь!</li>
+                <li><img src="http://placehold.it/64x76" alt="Сувениры" width="64" height="76">Сувениры. Не только китайского, но и местного произвоства!</li>
               </ul>
           </li>
           <li>
-            <img src="http://placehold.it/450x100" alt="photo2">
-            <!--<img src="img/feature2.jpg" alt="photo2">-->
+            <img src="http://placehold.it/800x400" alt="photo2" width="800" height="400">
+            <!--<img src="img/feature2.jpg" alt="photo2" width="800" height="400">-->
             <h3>Там есть мост дьявола</h3>
             <p>-№2- Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </li>
@@ -68,12 +70,12 @@
       </button>
   </div>
     
-<img src="http://placehold.it/450x450" alt="Карта">
-<!--<img src="img/map%20cutted.jpg" alt="Карта">-->
+<img src="http://placehold.it/2180x747" alt="Карта" width="1280" height="747">
+<!--<img src="img/map%20cutted.jpg" alt="Карта" alt="Карта" width="1280" height="747">-->
       
 <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-  <p><label>Дата заезда: <input type="date" name="arrival" required></label></p>
-  <p><label>Дата выезда: <input type="date" name="departure" required></label></p>
+  <p><label>Дата заезда: <input type="text" name="arrival" required></label></p>
+  <p><label>Дата выезда: <input type="text" name="departure" required></label></p>
   <p><label>Взрослые: <input type="number" name="adults" placeholder="Взрослые" min="0" required></label></p>
   <p><label>Дети: <input type="number" name="children" placeholder="Дети" min="0" required></label></p>
   <input type="submit" value="Найти">
@@ -81,15 +83,17 @@
      
 <footer>
   <p>#VISITSEDONA</p>
-    <div class="footer-social">
-      <ul>
-        <li><!--<img src="img/twitter%20icon.png">--><a class="social-button" href="https://twitter.com/">Твиттер</a></li>
-        <li><!--<img src="img/fb-icon.png">--><a class="social-button" href="https://www.facebook.com/">Фейсбук</a></li>
-        <li><!--<img src="img/youtube%20icon.png">--><a class="social-button" href="https://www.youtube.com">Ютуб</a></li>
+    <article class="footer-social">
+       <h2 class="visually-hidden">Соцсети</h2>
+          <ul>
+            <li><!--<img src="img/twitter%20icon.png" alt="Twitter" width="46" height="48">--><a class="social-button" href="https://twitter.com/"><img src="http://placehold.it/46x48" alt="Twitter" width="46" height="48">Твиттер</a></li>
+            <li><!--<img src="img/fb-icon.png" alt="Facebook" width="46" height="48">--><a class="social-button" href="https://www.facebook.com/"><img src="http://placehold.it/46x48" alt="Facebook" width="46" height="48">Фейсбук</a></li>
+            <li><!--<img src="img/youtube%20icon.png" alt="Youtube" width="46" height="48">--><a class="social-button" href="https://www.youtube.com/"><img src="http://placehold.it/46x48" alt="Youtube" width="46" height="48">Ютуб</a></li>
       </ul>
-    </div>
+    </article>
   <p class="footer-copyright">
-    <a href="/intensive/htmlcss">Website by HTML academy</a>
+    Website by: 
+    <a href="/intensive/htmlcss"><img src="http://placehold.it/115x41" alt="HTML academy" width="115" height="41">HTML academy</a>
   </p>
 </footer>
       <!-- <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p> -->
